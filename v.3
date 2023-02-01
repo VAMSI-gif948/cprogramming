@@ -1,18 +1,19 @@
-#include <stdio.h>
-int main() {
-    int dividend, divisor, quotient, remainder;
-    printf("Enter dividend: ");
-    scanf("%d", &dividend);
-    printf("Enter divisor: ");
-    scanf("%d", &divisor);
+#include<stdio.h>
 
-    // Computes quotient
-    quotient = dividend / divisor;
+int main(){
 
-    // Computes remainder
-    remainder = dividend % divisor;
+    int x,fact=1,n;
 
-    printf("Quotient = %d\n", quotient);
-    printf("Remainder = %d", remainder);
+    printf("Enter a number to find factorial: ");
+
+    scanf("%d",&n); 
+
+    for(x=1;x<=n;x++)
+
+        fact=fact*x; 
+
+    printf("Factorial of %d is: %d",n,fact);
+
     return 0;
+
 }
