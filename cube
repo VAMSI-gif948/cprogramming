@@ -1,0 +1,10 @@
+#include<stdio.h>
+int main()
+{
+	int n;
+	printf("enter a number");
+	scanf("%D",&n);
+	printf("\n cube of the number%d=%d",n,n*n*n);
+	return 0;
+}
+0 comments on commit 5193e7a
